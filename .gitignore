@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Tanítási kimenetek (nagy fájlok)
+checkpoints*/
+*.examples
+*.pth.tar
+!modellek/v6_best.pth.tar
+
+# Futtatási naplók és kimenetek
+*.log
+jatszma_naplo*.txt
+kimenet/
+
+# Szerkesztők
+.vs/
+.vscode/
+.idea/
